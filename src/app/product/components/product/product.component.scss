@@ -1,0 +1,23 @@
+// :host{
+//     margin: 1rem;
+//     // border: 1px solid #ddd;
+//     border-radius: 1rem;
+//     display: block;
+//     padding: 1rem;
+//     box-shadow: 1px 1px 10px #bbb;
+
+// }
+
+.crop-image{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+}
